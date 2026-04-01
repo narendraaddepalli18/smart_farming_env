@@ -1,0 +1,12 @@
+name: smart-farming-env
+description: AI environment for smart agriculture decisions
+version: 1.0
+
+observation_space:
+  water: int
+  crop_health: int
+
+action_space:
+  - irrigate
+  - fertilize
+  - harvest
